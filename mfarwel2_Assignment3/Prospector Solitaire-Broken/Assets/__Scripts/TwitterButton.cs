@@ -19,7 +19,7 @@ public class TwitterButton : MonoBehaviour
 
     public void OnClick()
     {
-        ShareToTwitter("My score is: " + ScoreManager.SCORE);
+        ShareToTwitter("I'm playing Unity Solitaire! I just scored: " + ScoreManager.SCORE);
     }
 
     public void ShareToTwitter(string textToDisplay)
